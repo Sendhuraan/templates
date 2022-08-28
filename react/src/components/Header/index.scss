@@ -1,0 +1,44 @@
+.header {
+  background: #eb2e63 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  padding: 10px 0;
+
+
+  &__left {
+    margin-left: 10px;
+    align-items: center;
+  }
+
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 21px;
+    margin-right: 10px;
+
+    .menu-lines {
+      width: 10px;
+      height: 4px;
+      background-color: white;
+      border-radius: 2px;
+
+      &:nth-child(2) {
+        width: 15px;
+      }
+
+      &:nth-child(3) {
+        width: 20px;
+      }
+    }
+  }
+
+  &__logo {
+    h2 {
+      font-family: 'Avenir Black';
+      font-size: 20px;
+      color: white;
+    }
+  }
+
+  &__right {}
+}
